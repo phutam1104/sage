@@ -1,0 +1,2 @@
+2025/03/31 16:31:28 [error] 14620#16664: *23 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-cron.php?doing_wp_cron=1743413488.0463230609893798828125 HTTP/1.1", upstream: "fastcgi://127.0.0.1:10027", host: "sage.local"
+2025/03/31 16:38:29 [alert] 4520#12068: OpenEvent("ngx_master_10372") failed (2: The system cannot find the file specified)

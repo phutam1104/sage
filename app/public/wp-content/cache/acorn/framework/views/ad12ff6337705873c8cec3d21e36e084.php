@@ -1,0 +1,1 @@
+<H1>Banner</H1><?php /**PATH C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage-theme\resources\views/page/module-apk_banner.blade.php ENDPATH**/ ?>

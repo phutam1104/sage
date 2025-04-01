@@ -1,0 +1,213 @@
+[22-Mar-2025 08:54:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wpdb.php on line 1982
+[22-Mar-2025 08:54:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wpdb.php on line 1982
+[22-Mar-2025 09:08:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Lenovo...')
+#16 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[22-Mar-2025 09:08:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[22-Mar-2025 09:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146
+[22-Mar-2025 09:08:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Log1x\AcfComposer\acf_add_options_page() in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php:146
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(96): Log1x\AcfComposer\Options->Log1x\AcfComposer\{closure}()
+#1 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php(141): Log1x\AcfComposer\Composer->register(Object(Closure))
+#2 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Composer.php(67): Log1x\AcfComposer\Options->compose()
+#3 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(131): Log1x\AcfComposer\Composer->handle()
+#4 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\AcfComposer.php(97): Log1x\AcfComposer\AcfComposer->handleComposers()
+#5 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): Log1x\AcfComposer\AcfComposer->Log1x\AcfComposer\{closure}(6)
+#6 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\plugins\advanced-custom-fields\acf.php(412): do_action('acf/init', 6)
+#9 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#10 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Lenovo\Local Sites\sage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Lenovo\Local Sites\sage\app\public\wp-settings.php(704): do_action('init')
+#13 C:\Users\Lenovo\Local Sites\sage\app\public\wp-config.php(106): require_once('C:\\Users\\Lenovo...')
+#14 C:\Users\Lenovo\Local Sites\sage\app\public\wp-load.php(50): require_once('C:\\Users\\Lenovo...')
+#15 C:\Users\Lenovo\Local Sites\sage\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Lenovo...')
+#16 C:\Users\Lenovo\Local Sites\sage\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#17 {main}
+  thrown in C:\Users\Lenovo\Local Sites\sage\app\public\wp-content\themes\sage\vendor\log1x\acf-composer\src\Options.php on line 146

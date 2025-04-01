@@ -1,0 +1,72 @@
+{
+    "name": "acf\/example-block",
+    "title": "Example Block",
+    "description": "Module",
+    "category": "text",
+    "icon": "editor-ul",
+    "styles": [
+        {
+            "name": "light",
+            "label": "Light",
+            "isDefault": true
+        },
+        {
+            "name": "dark",
+            "label": "Dark",
+            "isDefault": false
+        }
+    ],
+    "supports": {
+        "align": false,
+        "alignContent": false,
+        "fullHeight": false,
+        "anchor": false,
+        "mode": false,
+        "multiple": false,
+        "jsx": false,
+        "color": {
+            "background": false,
+            "text": false,
+            "gradients": false
+        },
+        "spacing": {
+            "padding": false,
+            "margin": false
+        },
+        "align_content": false,
+        "full_height": false,
+        "typography": {
+            "textAlign": false
+        }
+    },
+    "textdomain": "sage",
+    "apiVersion": 2,
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "items": [
+                    {
+                        "item": "Item one"
+                    },
+                    {
+                        "item": "Item two"
+                    },
+                    {
+                        "item": "Item three"
+                    }
+                ]
+            }
+        }
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "preview",
+        "postTypes": [
+            "page"
+        ],
+        "renderTemplate": "App\\Blocks\\ExampleBlock",
+        "usePostMeta": false,
+        "validate": true
+    }
+}
